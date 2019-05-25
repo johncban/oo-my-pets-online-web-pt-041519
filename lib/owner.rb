@@ -67,9 +67,9 @@ class Owner
   end
 
   def sell_pets
-    binding.pry
-    @pets.each do |type, pets_array|
-      pets_array.each do |pet|
+    #binding.pry
+    @pets.each do |type, pets_array| # Call each species and create pet array from @pets
+      pets_array.each do |pet| # Pass each pets_array values of pet.mood with nervous value from happy
         pet.mood = "nervous"
       end
     end
