@@ -66,7 +66,7 @@ class Owner
     end
   end
 
-  def owner.sell_pets
+  def sell_pets
 
   end
 
