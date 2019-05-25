@@ -77,7 +77,7 @@ class Owner
   end
 
   def list_pets
-    binding.pry
+    #binding.pry
     "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)." # Use array.count or just count to return the number of elements just like length
   end
 
