@@ -72,7 +72,7 @@ class Owner
         pet.mood = "nervous"
       end
     end
-    @pets = {}
+    @pets = {} # Turn each pets nervous inside the empty hash
   end
 
 end
