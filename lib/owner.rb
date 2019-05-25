@@ -76,4 +76,8 @@ class Owner
     @pets = {} # Turn each pets nervous inside the empty hash
   end
 
+  def lists_pets
+
+  end
+
 end
