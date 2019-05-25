@@ -76,7 +76,7 @@ class Owner
     @pets = {} # Turn each pets nervous inside the empty hash
   end
 
-  def lists_pets
+  def list_pets
     "I have #{@pets[:fish].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
   end
 
